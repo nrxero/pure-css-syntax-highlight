@@ -3,7 +3,7 @@ A pure CSS HTML syntax highlighter
 
 Import the CSS file to start:
 ```html
-  <link rel="stylesheet" href="./syntax.css">
+<link rel="stylesheet" href="./syntax.css">
 ```
 
 Use HTML classes to hightlight elements. Start with the "syntaxbox" code element class.
@@ -19,9 +19,9 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
     <td>syntaxbox</td>
     <td>Use on a "code" element. This is the wrapper for everything</td>
     <td>
-      ```html
-      <code class='syntaxbox'></code>
-      ```
+```html
+<code class='syntaxbox'></code>
+```
     </td>
   <tr>
   <tr>
