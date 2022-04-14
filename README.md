@@ -40,7 +40,5 @@ HTML syntax:
 
   <span class="newline"><span class="identifier end">span</span></span>
 
-
-
 </code>
 ```
