@@ -7,14 +7,17 @@
   --lineColours: #363C49;
   --commentColour: #6A7181;
   --linkColour: #56B6C2;
+  --hoverColour: #518BFF;
 }
 
 .identifier {
   color: var(--identifierColour);
 }
 
+
+
 .identifier::before {
-  display: inline;
+  display: inline-block;
   content: '<';
   color: var(--tagColour);
 }
@@ -29,14 +32,24 @@
   color: var(--valColour);
 }
 
+.attribute,
+.value,
+.identifier {
+  display: inline-block;
+}
+
 .value::before {
   content: '"';
   color: var(--valColour);
+  display: inline-block;
+
 }
 
 .value::after {
   content: '"';
   color: var(--valColour);
+  display: inline-block;
+
 }
 
 .value.link {
@@ -46,15 +59,13 @@
 
 .attribute {
   color: #D19A66;
+  text-decoration: none !important;
+  margin-left: 0.5em;
 }
 
 .attribute::after {
   content: '=';
   color: var(--equals);
-}
-
-.attribute::before {
-  content: ' ';
 }
 
 .syntaxbox {
@@ -114,4 +125,10 @@
 
 .comment::after {
   content: '-->';
+}
+
+.identifier:not([class*="end"]):hover,
+.identifier:not([class*="end"]):hover+.identifier.end {
+  text-decoration: 1.5px underline;
+  text-decoration-color: var(--hoverColour);
 }
