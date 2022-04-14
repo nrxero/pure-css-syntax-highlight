@@ -42,6 +42,10 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
     <td>newline</td>
     <td>A "span" element. Creates a new line. Enclose each line of elements within it.</td>
   <tr>
+  <tr>
+    <td>comment</td>
+    <td>A "span" element. Put the comment text within it.</td>
+  <tr>
     
 </table>
   
