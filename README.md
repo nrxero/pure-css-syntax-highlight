@@ -41,7 +41,7 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
   </tr>
   <tr>
     <td>newline</td>
-    <td>A "span" element. Creates a new line. Enclose each line of elements within it.</td>
+    <td>A "span" element. Creates a new line. Enclose each line of elements within it. You can use the data-level property(value of 1-3) to indent code.</td>
   </tr>
   <tr>
     <td>comment</td>
