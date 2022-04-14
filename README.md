@@ -11,9 +11,38 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
 ## Classes:
 
 <table>
-  <th>Class</th>
-  <th>Useage</th>
+  <tr><th>Class</th>
+  <th>Usage</th></tr>
   
+  <tr>
+    <td>syntaxbox</td>
+    <td>Use on a "code" element. This is the wrapper for everything</td>
+  <tr>
+  <tr>
+    <td>identifier</td>
+    <td>Use on a "span" element. Creates an HTML element identifier.</td>
+  <tr>
+  <tr>
+    <td>identifier end</td>
+    <td>Writes a /end identifier element</td>
+  <tr>
+  <tr>
+    <td>value</td>
+    <td>Creates a value. Position after an attribute span.</td>
+  <tr>
+  <tr>
+    <td>value link</td>
+    <td>Creates a link value. Position after an attribute span.</td>
+  <tr>
+  <tr>
+    <td>attribute</td>
+    <td>Creates an HTML attribute. Put this span inside an identifier span.</td>
+  <tr>
+  <tr>
+    <td>newline</td>
+    <td>A "span" element. Creates a new line. Enclose each line of elements within it.</td>
+  <tr>
+    
 </table>
   
 ## HTML syntax:
