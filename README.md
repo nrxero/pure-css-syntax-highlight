@@ -13,11 +13,13 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
 <table>
   <tr><th>Class</th>
   <th>Usage</th>
+    <th>Snippet</th>
  </tr>
 
   <tr>
     <td>syntaxbox</td>
     <td>Use on a "code" element. This is the wrapper for everything</td>
+    <td>```<code></code>```</td>
   <tr>
   <tr>
     <td>identifier</td>
