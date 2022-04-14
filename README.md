@@ -10,11 +10,12 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
 
 ## Classes:
 
-<ul>
-  <li>syntaxbox</li>
+<table>
+  <th>Class</th>
+  <th>Useage</th>
   
-</ul>
-
+</table>
+  
 ## HTML syntax:
 
 ![syntax example](https://user-images.githubusercontent.com/62193848/163312263-15484585-5871-48b4-827e-757d894ab05b.PNG)
