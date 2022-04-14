@@ -49,7 +49,7 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
     
 </table>
   
-## HTML syntax:
+## Example:
 
 ![syntax example](https://user-images.githubusercontent.com/62193848/163313767-1e08799d-2e29-4119-8c41-b2cf907c119c.PNG)
 
