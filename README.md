@@ -47,7 +47,7 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
   
 ## HTML syntax:
 
-![syntax example](https://user-images.githubusercontent.com/62193848/163312263-15484585-5871-48b4-827e-757d894ab05b.PNG)
+![syntax example](https://user-images.githubusercontent.com/62193848/163313767-1e08799d-2e29-4119-8c41-b2cf907c119c.PNG)
 
 ```html
 <code class="syntaxbox">
