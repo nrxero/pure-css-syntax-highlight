@@ -19,7 +19,7 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
     <td>syntaxbox</td>
     <td>Use on a "code" element. This is the wrapper for everything</td>
     <td>
-```html
+```
 <code class='syntaxbox'></code>
 ```
     </td>
