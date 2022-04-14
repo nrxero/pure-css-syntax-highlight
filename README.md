@@ -12,7 +12,7 @@ Use HTML classes to hightlight elements. Start with the "syntaxbox" code element
 
 <table>
   <tr><th>Class</th>
-  <th>Usage</th></tr>
+  <th>Usage</th>
    <th>Snippet</th></tr>
 
   <tr>
