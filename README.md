@@ -1,12 +1,12 @@
 # pure-css-syntax-hightlight
 A pure CSS HTML syntax highlighter
 
-Use HTML classes to hightlight elements.
+Use HTML classes to hightlight elements. Start with the "syntaxbox" code element class.
 
 HTML syntax:
 ![syntax example](https://user-images.githubusercontent.com/62193848/163312263-15484585-5871-48b4-827e-757d894ab05b.PNG)
 
-```
+```html
 <code class="syntaxbox">
 
   <span class="newline"><span class="comment">Add the "link" class to value hightlights the link</span></span>
